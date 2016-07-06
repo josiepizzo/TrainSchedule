@@ -42,7 +42,7 @@ $("#addTrainBtn").on("click", function(){
 	return false;
 });
 
-//Adding trains to the database and in the rows of html when the user add an entry
+//Adding trains to the database and in the rows of html when the user adds an entry
 trainData.ref().on("child_added", function(childSnapShot, prevChildKey){
 
 	console.log(childSnapShot.val());
